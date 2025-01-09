@@ -121,7 +121,7 @@ class _SignInState extends State<SignUp> {
             SizedBox(height: 10),
             ElevatedButton(
               onPressed: () async {
-                Navigator.pushNamed(context, '/home');
+                Navigator.pushNamed(context, '/');
               },
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
